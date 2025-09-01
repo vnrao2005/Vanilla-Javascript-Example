@@ -1,0 +1,19 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "A vanilla JavaScript application that calculates customer reward points based on transaction history. The application provides a comprehensive dashboard for viewing customer rewards, monthly breakdowns, and transaction details with advanced filtering and pagination capabilities.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^30.1.1",
+    "pino": "^9.9.0"
+  }
+}

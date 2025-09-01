@@ -1,0 +1,122 @@
+[
+    {
+        "customerId": "CUST001",
+        "name": "Alice Johnson",
+        "email": "alice.johnson@email.com",
+        "joinDate": "2021-03-15"
+    },
+    {
+        "customerId": "CUST002",
+        "name": "Bob Smith",
+        "email": "bob.smith@email.com",
+        "joinDate": "2021-05-22"
+    },
+    {
+        "customerId": "CUST003",
+        "name": "Carol Davis",
+        "email": "carol.davis@email.com",
+        "joinDate": "2021-07-08"
+    },
+    {
+        "customerId": "CUST004",
+        "name": "David Wilson",
+        "email": "david.wilson@email.com",
+        "joinDate": "2021-09-14"
+    },
+    {
+        "customerId": "CUST005",
+        "name": "Emma Brown",
+        "email": "emma.brown@email.com",
+        "joinDate": "2021-11-30"
+    },
+    {
+        "customerId": "CUST006",
+        "name": "Frank Miller",
+        "email": "frank.miller@email.com",
+        "joinDate": "2022-01-18"
+    },
+    {
+        "customerId": "CUST007",
+        "name": "Grace Taylor",
+        "email": "grace.taylor@email.com",
+        "joinDate": "2022-03-25"
+    },
+    {
+        "customerId": "CUST008",
+        "name": "Henry Anderson",
+        "email": "henry.anderson@email.com",
+        "joinDate": "2022-05-12"
+    },
+    {
+        "customerId": "CUST009",
+        "name": "Ivy Thomas",
+        "email": "ivy.thomas@email.com",
+        "joinDate": "2022-07-09"
+    },
+    {
+        "customerId": "CUST010",
+        "name": "Jack Martinez",
+        "email": "jack.martinez@email.com",
+        "joinDate": "2022-09-16"
+    },
+    {
+        "customerId": "CUST011",
+        "name": "Karen White",
+        "email": "karen.white@email.com",
+        "joinDate": "2022-11-23"
+    },
+    {
+        "customerId": "CUST012",
+        "name": "Leo Garcia",
+        "email": "leo.garcia@email.com",
+        "joinDate": "2023-01-10"
+    },
+    {
+        "customerId": "CUST013",
+        "name": "Mia Rodriguez",
+        "email": "mia.rodriguez@email.com",
+        "joinDate": "2023-03-19"
+    },
+    {
+        "customerId": "CUST014",
+        "name": "Noah Lee",
+        "email": "noah.lee@email.com",
+        "joinDate": "2023-05-26"
+    },
+    {
+        "customerId": "CUST015",
+        "name": "Olivia Clark",
+        "email": "olivia.clark@email.com",
+        "joinDate": "2023-07-13"
+    },
+    {
+        "customerId": "CUST016",
+        "name": "Peter Lewis",
+        "email": "peter.lewis@email.com",
+        "joinDate": "2023-09-20"
+    },
+    {
+        "customerId": "CUST017",
+        "name": "Quinn Walker",
+        "email": "quinn.walker@email.com",
+        "joinDate": "2023-11-27"
+    },
+    {
+        "customerId": "CUST018",
+        "name": "Rachel Hall",
+        "email": "rachel.hall@email.com",
+        "joinDate": "2024-01-14"
+    },
+    {
+        "customerId": "CUST019",
+        "name": "Sam Allen",
+        "email": "sam.allen@email.com",
+        "joinDate": "2024-03-21"
+    },
+    {
+        "customerId": "CUST020",
+        "name": "Tina Young",
+        "email": "tina.young@email.com",
+        "joinDate": "2024-05-28"
+    }
+]

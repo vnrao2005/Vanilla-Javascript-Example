@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards Program Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-gift"></i> Rewards Program Calculator</h1>
+            <p>Calculate customer reward points based on transaction history</p>
+        </header>
+
+        <main>
+            <!-- Loading State -->
+            <div id="loadingState" class="loading-state hidden">
+                <div class="spinner"></div>
+                <p>Loading data...</p>
+            </div>
+
+            <!-- Error State -->
+            <div id="errorState" class="error-state hidden">
+                <div class="error-content">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Error Loading Data</h3>
+                    <p id="errorMessage"></p>
+                    <button id="retryBtn" class="btn btn-primary">
+                        <i class="fas fa-redo"></i> Retry
+                    </button>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div id="mainContent" class="hidden">
+                <!-- Filters Section -->
+                <section class="filters-section">
+                    <div class="filter-group">
+                        <label for="customerSelect">Select Customer:</label>
+                        <select id="customerSelect" class="form-control">
+                            <option value="">-- Select Customer --</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="monthFilter">Month:</label>
+                        <select id="monthFilter" class="form-control">
+                            <option value="last3">Last 3 Months (Default)</option>
+                            <option value="01">January</option>
+                            <option value="02">February</option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="yearFilter">Year:</label>
+                        <select id="yearFilter" class="form-control">
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                        </select>
+                    </div>
+                    
+                    <button id="applyFilters" class="btn btn-primary">
+                        <i class="fas fa-filter"></i> Apply Filters
+                    </button>
+                </section>
+
+                <!-- Customer Summary Section -->
+                <section id="customerSummary" class="customer-summary hidden">
+                    <div class="summary-cards">
+                        <div class="summary-card">
+                            <h3>Total Reward Points</h3>
+                            <div id="totalPoints" class="points-value">0</div>
+                        </div>
+                        <div class="summary-card">
+                            <h3>Selected Period</h3>
+                            <div id="selectedPeriod" class="period-value">Last 3 Months</div>
+                        </div>
+                        <div class="summary-card">
+                            <h3>Total Transactions</h3>
+                            <div id="totalTransactions" class="transaction-count">0</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Monthly Breakdown Section -->
+                <section id="monthlyBreakdown" class="monthly-breakdown hidden">
+                    <h2>Monthly Reward Points</h2>
+                    <div id="monthlyData" class="monthly-data"></div>
+                </section>
+
+                <!-- Transaction Details Section -->
+                <section id="transactionDetails" class="transaction-details hidden">
+                    <h2>Transaction Details</h2>
+                    <div id="transactionsList" class="transactions-list"></div>
+                    
+                    <!-- Pagination Controls -->
+                    <div id="paginationControls" class="pagination-controls hidden">
+                        <button id="prevPage" class="btn btn-secondary" disabled>
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </button>
+                        <span id="pageInfo" class="page-info">Page 1 of 1</span>
+                        <button id="nextPage" class="btn btn-secondary" disabled>
+                            Next <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- No Data State -->
+                <section id="noDataState" class="no-data-state hidden">
+                    <div class="no-data-content">
+                        <i class="fas fa-inbox"></i>
+                        <h3>No Transactions Found</h3>
+                        <p>No transactions found for the selected customer and time period.</p>
+                        <p>Please try selecting different filters or check back later.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="src/app.js"></script>
+</body>
+</html>
