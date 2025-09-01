@@ -32,7 +32,7 @@ function send(level, logEvent) {
     }
 }
 
-// Simple fallback logger (Pino CDN might not be reliable)
+// Simple fallback logger
 const logger = {
     info: (...args) => console.info('[INFO]', ...args),
     error: (...args) => console.error('[ERROR]', ...args),

@@ -68,3 +68,5 @@ The application follows a clean separation of concerns with each module having a
 ![Monthly Reward Points](./images/monthly_rewards.jpg)  
 
 ![Transaction Details](./images/transaction_details.jpg)
+
+![Test Result](./images/test_result.jpg)
