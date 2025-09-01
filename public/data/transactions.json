@@ -1,0 +1,422 @@
+[
+    {
+        "transactionId": "TXN001",
+        "customerId": "CUST001",
+        "amount": 75.50,
+        "date": "2025-06-15"
+    },
+    {
+        "transactionId": "TXN002",
+        "customerId": "CUST001",
+        "amount": 125.00,
+        "date": "2025-07-22"
+    },
+    {
+        "transactionId": "TXN003",
+        "customerId": "CUST001",
+        "amount": 45.75,
+        "date": "2025-08-10"
+    },
+    {
+        "transactionId": "TXN004",
+        "customerId": "CUST002",
+        "amount": 89.99,
+        "date": "2025-06-18"
+    },
+    {
+        "transactionId": "TXN005",
+        "customerId": "CUST002",
+        "amount": 156.80,
+        "date": "2025-07-05"
+    },
+    {
+        "transactionId": "TXN006",
+        "customerId": "CUST002",
+        "amount": 200.25,
+        "date": "2025-08-12"
+    },
+    {
+        "transactionId": "TXN007",
+        "customerId": "CUST003",
+        "amount": 65.40,
+        "date": "2025-06-20"
+    },
+    {
+        "transactionId": "TXN008",
+        "customerId": "CUST003",
+        "amount": 110.75,
+        "date": "2025-07-08"
+    },
+    {
+        "transactionId": "TXN009",
+        "customerId": "CUST003",
+        "amount": 87.30,
+        "date": "2025-08-25"
+    },
+    {
+        "transactionId": "TXN010",
+        "customerId": "CUST004",
+        "amount": 135.50,
+        "date": "2025-06-12"
+    },
+    {
+        "transactionId": "TXN011",
+        "customerId": "CUST004",
+        "amount": 95.25,
+        "date": "2025-07-19"
+    },
+    {
+        "transactionId": "TXN012",
+        "customerId": "CUST004",
+        "amount": 175.90,
+        "date": "2025-08-07"
+    },
+    {
+        "transactionId": "TXN013",
+        "customerId": "CUST005",
+        "amount": 55.75,
+        "date": "2025-06-25"
+    },
+    {
+        "transactionId": "TXN014",
+        "customerId": "CUST005",
+        "amount": 120.40,
+        "date": "2025-07-14"
+    },
+    {
+        "transactionId": "TXN015",
+        "customerId": "CUST005",
+        "amount": 98.60,
+        "date": "2025-08-28"
+    },
+    {
+        "transactionId": "TXN016",
+        "customerId": "CUST006",
+        "amount": 250.00,
+        "date": "2025-06-30"
+    },
+    {
+        "transactionId": "TXN017",
+        "customerId": "CUST006",
+        "amount": 180.75,
+        "date": "2025-07-16"
+    },
+    {
+        "transactionId": "TXN018",
+        "customerId": "CUST006",
+        "amount": 95.80,
+        "date": "2025-08-20"
+    },
+    {
+        "transactionId": "TXN019",
+        "customerId": "CUST007",
+        "amount": 75.25,
+        "date": "2025-06-08"
+    },
+    {
+        "transactionId": "TXN020",
+        "customerId": "CUST007",
+        "amount": 145.90,
+        "date": "2025-07-23"
+    },
+    {
+        "transactionId": "TXN021",
+        "customerId": "CUST007",
+        "amount": 67.50,
+        "date": "2025-08-15"
+    },
+    {
+        "transactionId": "TXN022",
+        "customerId": "CUST008",
+        "amount": 105.30,
+        "date": "2025-06-14"
+    },
+    {
+        "transactionId": "TXN023",
+        "customerId": "CUST008",
+        "amount": 220.45,
+        "date": "2025-07-27"
+    },
+    {
+        "transactionId": "TXN024",
+        "customerId": "CUST008",
+        "amount": 85.70,
+        "date": "2025-08-09"
+    },
+    {
+        "transactionId": "TXN025",
+        "customerId": "CUST009",
+        "amount": 60.90,
+        "date": "2025-06-21"
+    },
+    {
+        "transactionId": "TXN026",
+        "customerId": "CUST009",
+        "amount": 165.25,
+        "date": "2025-07-11"
+    },
+    {
+        "transactionId": "TXN027",
+        "customerId": "CUST009",
+        "amount": 92.40,
+        "date": "2025-08-24"
+    },
+    {
+        "transactionId": "TXN028",
+        "customerId": "CUST010",
+        "amount": 275.80,
+        "date": "2025-06-17"
+    },
+    {
+        "transactionId": "TXN029",
+        "customerId": "CUST010",
+        "amount": 125.60,
+        "date": "2025-07-30"
+    },
+    {
+        "transactionId": "TXN030",
+        "customerId": "CUST010",
+        "amount": 78.90,
+        "date": "2025-08-13"
+    },
+    {
+        "transactionId": "TXN031",
+        "customerId": "CUST011",
+        "amount": 88.75,
+        "date": "2025-06-05"
+    },
+    {
+        "transactionId": "TXN032",
+        "customerId": "CUST011",
+        "amount": 195.30,
+        "date": "2025-07-18"
+    },
+    {
+        "transactionId": "TXN033",
+        "customerId": "CUST011",
+        "amount": 115.45,
+        "date": "2025-08-26"
+    },
+    {
+        "transactionId": "TXN034",
+        "customerId": "CUST012",
+        "amount": 52.20,
+        "date": "2025-06-11"
+    },
+    {
+        "transactionId": "TXN035",
+        "customerId": "CUST012",
+        "amount": 140.85,
+        "date": "2025-07-24"
+    },
+    {
+        "transactionId": "TXN036",
+        "customerId": "CUST012",
+        "amount": 167.60,
+        "date": "2025-08-06"
+    },
+    {
+        "transactionId": "TXN037",
+        "customerId": "CUST013",
+        "amount": 72.35,
+        "date": "2025-06-28"
+    },
+    {
+        "transactionId": "TXN038",
+        "customerId": "CUST013",
+        "amount": 210.90,
+        "date": "2025-07-12"
+    },
+    {
+        "transactionId": "TXN039",
+        "customerId": "CUST013",
+        "amount": 94.50,
+        "date": "2025-08-19"
+    },
+    {
+        "transactionId": "TXN040",
+        "customerId": "CUST014",
+        "amount": 130.70,
+        "date": "2025-06-09"
+    },
+    {
+        "transactionId": "TXN041",
+        "customerId": "CUST014",
+        "amount": 85.40,
+        "date": "2025-07-26"
+    },
+    {
+        "transactionId": "TXN042",
+        "customerId": "CUST014",
+        "amount": 245.80,
+        "date": "2025-08-14"
+    },
+    {
+        "transactionId": "TXN043",
+        "customerId": "CUST015",
+        "amount": 68.90,
+        "date": "2025-06-16"
+    },
+    {
+        "transactionId": "TXN044",
+        "customerId": "CUST015",
+        "amount": 155.25,
+        "date": "2025-07-29"
+    },
+    {
+        "transactionId": "TXN045",
+        "customerId": "CUST015",
+        "amount": 77.60,
+        "date": "2025-08-21"
+    },
+    {
+        "transactionId": "TXN046",
+        "customerId": "CUST016",
+        "amount": 185.40,
+        "date": "2024-12-15"
+    },
+    {
+        "transactionId": "TXN047",
+        "customerId": "CUST016",
+        "amount": 92.75,
+        "date": "2025-01-22"
+    },
+    {
+        "transactionId": "TXN048",
+        "customerId": "CUST016",
+        "amount": 125.90,
+        "date": "2025-02-18"
+    },
+    {
+        "transactionId": "TXN049",
+        "customerId": "CUST017",
+        "amount": 65.30,
+        "date": "2024-11-28"
+    },
+    {
+        "transactionId": "TXN050",
+        "customerId": "CUST017",
+        "amount": 205.60,
+        "date": "2024-12-20"
+    },
+    {
+        "transactionId": "TXN051",
+        "customerId": "CUST017",
+        "amount": 89.45,
+        "date": "2025-01-15"
+    },
+    {
+        "transactionId": "TXN052",
+        "customerId": "CUST018",
+        "amount": 110.20,
+        "date": "2024-10-12"
+    },
+    {
+        "transactionId": "TXN053",
+        "customerId": "CUST018",
+        "amount": 175.85,
+        "date": "2024-11-19"
+    },
+    {
+        "transactionId": "TXN054",
+        "customerId": "CUST018",
+        "amount": 95.70,
+        "date": "2024-12-28"
+    },
+    {
+        "transactionId": "TXN055",
+        "customerId": "CUST019",
+        "amount": 58.40,
+        "date": "2024-09-25"
+    },
+    {
+        "transactionId": "TXN056",
+        "customerId": "CUST019",
+        "amount": 145.75,
+        "date": "2024-10-30"
+    },
+    {
+        "transactionId": "TXN057",
+        "customerId": "CUST019",
+        "amount": 120.30,
+        "date": "2024-11-16"
+    },
+    {
+        "transactionId": "TXN058",
+        "customerId": "CUST020",
+        "amount": 225.90,
+        "date": "2024-08-14"
+    },
+    {
+        "transactionId": "TXN059",
+        "customerId": "CUST020",
+        "amount": 87.25,
+        "date": "2024-09-21"
+    },
+    {
+        "transactionId": "TXN060",
+        "customerId": "CUST020",
+        "amount": 165.45,
+        "date": "2024-10-18"
+    },
+    {
+        "transactionId": "TXN061",
+        "customerId": "CUST001",
+        "amount": 320.75,
+        "date": "2025-05-10"
+    },
+    {
+        "transactionId": "TXN062",
+        "customerId": "CUST002",
+        "amount": 42.80,
+        "date": "2025-05-15"
+    },
+    {
+        "transactionId": "TXN063",
+        "customerId": "CUST003",
+        "amount": 189.60,
+        "date": "2025-05-20"
+    },
+    {
+        "transactionId": "TXN064",
+        "customerId": "CUST004",
+        "amount": 95.40,
+        "date": "2025-05-25"
+    },
+    {
+        "transactionId": "TXN065",
+        "customerId": "CUST005",
+        "amount": 278.30,
+        "date": "2025-05-30"
+    },
+    {
+        "transactionId": "TXN066",
+        "customerId": "CUST006",
+        "amount": 63.50,
+        "date": "2025-04-05"
+    },
+    {
+        "transactionId": "TXN067",
+        "customerId": "CUST007",
+        "amount": 155.90,
+        "date": "2025-04-10"
+    },
+    {
+        "transactionId": "TXN068",
+        "customerId": "CUST008",
+        "amount": 87.75,
+        "date": "2025-04-15"
+    },
+    {
+        "transactionId": "TXN069",
+        "customerId": "CUST009",
+        "amount": 205.40,
+        "date": "2025-04-20"
+    },
+    {
+        "transactionId": "TXN070",
+        "customerId": "CUST010",
+        "amount": 74.85,
+        "date": "2025-04-25"
+    }
+]
