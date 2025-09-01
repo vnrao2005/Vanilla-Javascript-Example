@@ -61,3 +61,10 @@ Preferred communication style: Simple, everyday language.
 - **CSS3**: Modern styling features including flexbox, grid, and custom properties
 
 The application follows a clean separation of concerns with each module having a single responsibility, making it maintainable and testable while providing a rich user experience for managing customer rewards.
+# Project Screenshots
+
+![Header and Filter](./images/header_filter.jpg)  
+
+![Monthly Reward Points](./images/monthly_rewards.jpg)  
+
+![Transaction Details](./images/transaction_details.jpg)
